@@ -8,7 +8,10 @@ Our platform's purposes are:
 # Installation 
 To run our program, we have installed and imported the following packages:
 * Python programming language (version 3.11.0, although it will work with other versions)
-* NumpPy library --> import numpy as np
-* Pandas library --> import pandas as np
-* DefaultDict (from the typing library) --> from typing import DefaultDict
+* NumpPy library --> ```pip install numpy```
+* Pandas library --> ```pip install pandas```
+* DefaultDict (from the typing library) ```pip install typing```
 
+Once you have the libraries installed and set up, you can open the file named Algorithm.py and run the program.
+# Usage
+After 
