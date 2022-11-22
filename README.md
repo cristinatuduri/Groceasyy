@@ -14,4 +14,20 @@ To run our program, we have installed and imported the following packages:
 
 Once you have the libraries installed and set up, you can open the file named Algorithm.py and run the program.
 # Usage
-After 
+After the user has oppened the app
+
+# Some extra information about the code
+* matrices
+* while loops
+* Stacks
+
+
+
+# Credits
+The authors for this project are:
+Anita Rull 
+Nora Rosa
+Sebastian Llobet 
+Alberto Padilla
+Ramon Zubiaga
+Cristina Tuduri
