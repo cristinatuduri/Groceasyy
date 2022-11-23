@@ -17,17 +17,24 @@ Once you have the libraries installed and set up, you can open the file named Al
 After the user has oppened the app
 
 # Some extra information about the code
+The algorithm we used for the code is:
+* the greedy approach 
+  * from it we used the traveling salesman problem
+The data structures used are:
+* append
+* sort
+* arrays
 * matrices
-* while loops
-* Stacks
+* dicitonaries and lists
+* many functions in the numpy library
 
 
 
 # Credits
 The authors for this project are:
-Anita Rull 
-Nora Rosa
-Sebastian Llobet 
-Alberto Padilla
-Ramon Zubiaga
-Cristina Tuduri
+* Anita Rull 
+* Nora Rosa
+* Sebastian Llobet 
+* Alberto Padilla
+* Ramon Zubiaga
+* Cristina Tuduri
