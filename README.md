@@ -20,6 +20,7 @@ After the user has oppened the app
 The algorithm we used for the code is:
 * the greedy approach 
   * from it we used the traveling salesman problem
+
 The data structures used are:
 * append
 * sort
