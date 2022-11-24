@@ -33,22 +33,25 @@ The user will get asked if he/she would like to import a shopping list from anot
   2. When the user wants to stop putting in sections, he/she will type 'quit'
   3. The user will get asked if he/she would like to save the typed in shopping list ('save' if they want to save it or 'next' if they don't)
    * If typed in 'save' the program will ask the user to give the shopping list a name
-  4. The program will print the user's optimized route starting at the door and finishing at the chashier
-  5. It will also print the number of steps the route will take
+
+* User chooses to import an already used shopping list:
+  1. Program asks the user the name of the previously saved list
   
+Then the program will print the user's optimized route starting at the door and finishing at the chashier
+And lastly it will print the number of steps the route will take
   
 # Some extra information about the code
-The algorithm we used for the code is:
+The main algorithm we used for the code is:
 * the greedy approach 
-  * from it we used the traveling salesman problem
+  * from it we mainly used the traveling salesman problem
 
-The data structures used are:
-* append
-* sort
+Some data structures that we used in the algorithm are:
+* append functions
+* sorting
 * arrays
 * matrices
 * dicitonaries and lists
-* many functions in the numpy library
+* many functions in the imported libraries
 
 
 
