@@ -1,10 +1,8 @@
 # Project name - Groceasy
 Groceasy is an application that maps out the shortest route to get all your desired items at the supermarket
 
-Our platform's purposes are:
-1. Spend less time grocery shopping
-2. Optimize student's free time 
-
+Our platform's main purpose is:
+* optimizing the time 
 # Installation 
 To run our program, we have installed and imported the following packages:
 * Python programming language (version 3.11.0, although it will work with other versions)
@@ -46,8 +44,6 @@ The main algorithm we used for the code is:
   * from it we mainly used the traveling salesman problem
 
 Some data structures that we used in the algorithm are:
-* append functions
-* sorting
 * arrays
 * matrices
 * dicitonaries and lists
