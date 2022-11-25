@@ -29,7 +29,7 @@ The sections are the following:
 The user will get asked if he/she would like to import a shopping list from another usage or to start a new one.
 * User chooses to start a new shopping list:
   1. He/she will get the option to type in a shopping list one by one which sections he/she would like to go through 
-  2. When the user wants to stop putting in sections, he/she will type 'quit'
+  2. When the user is finished typing the sections, he/she will type 'q'
   3. The user will get asked if he/she would like to save the typed in shopping list ('save' if they want to save it or 'next' if they don't)
    * If typed in 'save' the program will ask the user to give the shopping list a name
 
