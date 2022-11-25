@@ -2,7 +2,8 @@
 Groceasy is an application that maps out the shortest route to get all your desired items at the supermarket
 
 Our platform's main purpose is:
-* optimizing the time 
+* optimizing the time you spend shopping at the supermarket
+
 # Installation 
 To run our program, we have installed and imported the following packages:
 * Python programming language (version 3.11.0, although it will work with other versions)
