@@ -51,7 +51,7 @@ Once you have the libraries installed and set up, you can open the file named Al
   * If it is the first time running the code type 'new' in order to create a new route. 
   * Otherwise, if you want to import old routestype 'import'.
 
-     1a. After typing 'new', you will have to input the desired sections one by one.
+    1a. After typing 'new', you will have to input the desired sections one by one.
      - **Note** that on the code there are instructions on how to input the sections. Just in case, you have to type the section and the desired number, the name of the section such as "Bakery" is not necessary
 
     The Sections provided are the following:
