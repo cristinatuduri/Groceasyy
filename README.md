@@ -1,17 +1,45 @@
-# Project name - Groceasy
-Groceasy is an application that maps out the shortest route to get all your desired items at the supermarket
+#GrocEasy
+Helps individuals optimize their time spent on Supermarkets
 
-Our platform's main purpose is:
-* optimizing the time you spend shopping at the supermarket
+# Table of Contents
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Credits](#credits)
+
+# Introduction
+This algorithm was created for our Algorithms & Data Structures class at IE University. 
+
+Groceasy is an application that maps out the shortest route to get all your desired items at a supermarket. 
+
+Its main purpose is to optimize the time you spend grocery shopping at the supermarket. 
+Groceasy was made for those busy individuals who always want do grocery shopping as fast as possible.
+
 
 # Installation 
 To run our program, we have installed and imported the following packages:
 * Python programming language (version 3.11.0, although it will work with other versions)
-* NumpPy library --> ```pip install numpy```
-* Pandas library --> ```pip install pandas```
-* json library --> ```pip install json```
- * JSONEncoder --> ```from json import JSONEncoder```
-* DefaultDict (from the typing library) ```pip install typing``` --> ```from typing import DefaultDict```
+* NumpPy library:
+`````
+pip install numpy
+`````
+* Pandas library:
+`````
+pip install pandas
+`````
+* json library :
+`````
+pip install json
+`````
+* JSONEncoder:
+ `````
+from json import JSONEncoder
+ `````
+* DefaultDict:
+`````
+pip install typing
+from typing import DefaultDict
+`````
 
 Once you have the libraries installed and set up, you can open the file named Algorithm.py and run the program.
 
@@ -50,13 +78,17 @@ Some data structures that we used in the algorithm are:
 * dicitonaries and lists
 * many functions in the imported libraries
 
+# Future Implementations
+- [ ] Stock availability for users
+- [ ] Expand to more supermarkets in Spain
+- [ ] Improve optimized route and create a visual route for users
 
 
 # Credits
-The authors for this project are:
-* Anita Rull 
-* Nora Rosa
-* Sebastian Llobet 
-* Alberto Padilla
-* Ramon Zubiaga
-* Cristina Tuduri
+The project was created by:
+- Anita Rull 
+- Nora Rosa
+- Sebastian Llobet 
+- Alberto Padilla
+- Ramon Zubiaga
+- Cristina Tuduri
