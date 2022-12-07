@@ -1,4 +1,4 @@
-#GrocEasy
+# GrocEasy
 Helps individuals optimize their time spent on Supermarkets
 
 # Table of Contents
@@ -15,6 +15,8 @@ Groceasy is an application that maps out the shortest route to get all your desi
 Its main purpose is to optimize the time you spend grocery shopping at the supermarket. 
 Groceasy was made for those busy individuals who always want do grocery shopping as fast as possible.
 
+**Limitations** 
+* The Algorithm is currently limited to a predefined supermarket
 
 # Installation 
 To run our program, we have installed and imported the following packages:
@@ -44,39 +46,47 @@ from typing import DefaultDict
 Once you have the libraries installed and set up, you can open the file named Algorithm.py and run the program.
 
 # Usage
-After the user has oppened the app, it will display the available sections to choose from and what they each contain.
-The sections are the following:
-* Section 2: Bakery
-* Section 3: Meat
-* Section 4: Frozen products
-* Section 5: Fruits and vegetables
-* Section 6: Drinks
-* Section 7: Cleaning Products
-* Sectiojn 8: Seafood
 
-The user will get asked if he/she would like to import a shopping list from another usage or to start a new one.
-* User chooses to start a new shopping list:
-  1. He/she will get the option to type in a shopping list one by one which sections he/she would like to go through 
-  2. When the user is finished typing the sections, he/she will type 'q'
-  3. The user will get asked if he/she would like to save the typed in shopping list ('save' if they want to save it or 'next' if they don't)
-   * If typed in 'save' the program will ask the user to give the shopping list a name
+1. After running the code, it will ask you to type 'import' or new'. 
+  * If it is the first time running the code type 'new' in order to create a new route. 
+  * Otherwise, if you want to import old routestype 'import'.
 
-* User chooses to import an already used shopping list:
-  1. Program asks the user the name of the previously saved list
+     1a. After typing 'new', you will have to input the desired sections one by one.
+     - **Note** that on the code there are instructions on how to input the sections. Just in case, you have to type the section and the desired number, the name of the section such as "Bakery" is not necessary
+
+    The Sections provided are the following:
+    - Section 2: Bakery
+    - Section 3: Meat
+    - Section 4: Frozen products
+    - Section 5: Fruits and vegetables
+    - Section 6: Drinks
+    - Section 7: Cleaning Products
+    - Section 8: Seafood
+
+
+     1b. If you have typed import. The algorithm will ask you to type the name of the route
+      * Remember to type the name of the route exactly as it wast. If not, the algorithm will not find youre route
+
+2. After the Sections are inputed and you have typed 'q'. The algorithm will ask you to save or continue 
+
+   2a. If you want to save the route, type 'save'
+    * Afterwards, type the desired name for the Route (Be sure to not forget the Route name you have saved). The user will get asked if he/she would like to import a shopping list from another usage or to start a new one.
+    * Finally once you have typed the name, the algorithm will proceed to give you the most optimized route and steps based on youre preferences.
+
+   2b. If you do not want to save and desire to continue type 'next'
+    * The algorithm will proceed on giving you the most optimized route and steps based on youre preferences. 
+
   
-Then the program will print the user's optimized route starting at the door and finishing at the chashier
-And lastly it will print the number of steps the route will take
-  
-# Some extra information about the code
+## Extra information about the code
 The main algorithm we used for the code is:
 * the greedy approach 
   * from it we mainly used the traveling salesman problem
 
 Some data structures that we used in the algorithm are:
-* arrays
-* matrices
-* dicitonaries and lists
-* many functions in the imported libraries
+- arrays
+- matrices
+- dicitonaries and lists
+- Many more functions imported from libraries libraries
 
 # Future Implementations
 - [ ] Stock availability for users
