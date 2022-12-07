@@ -79,13 +79,13 @@ Once you have the libraries installed and set up, you can open the file named Al
   
 ## Extra information about the code
 The main algorithm we used for the code is:
-* the greedy approach 
-  * from it we mainly used the traveling salesman problem
+* The Greedy Approach 
+  * From it we mainly used the traveling salesman problem
 
 Some data structures that we used in the algorithm are:
-- arrays
-- matrices
-- dicitonaries and lists
+- Arrays
+- Matrices
+- Dicitonaries and lists
 - Many more functions imported from libraries libraries
 
 # Future Implementations
